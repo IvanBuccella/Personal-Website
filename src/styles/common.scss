@@ -1,0 +1,31 @@
+body {
+  background-color: $color-blue;
+  font-family: poppins, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.75em;
+  color: $text-color;
+  margin-left: 25px;
+  margin-right: 25px;
+  @include media("<=large") {
+    margin: 0;
+  }
+  .page-container {
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    max-width: 85em;
+    margin: 2em auto;
+    background-color: $background-color;
+    border-radius: 30px;
+    padding: 2em;
+    min-height: 80vh;
+
+    @include media("<=large") {
+      max-width: 100%;
+      margin: 0;
+      border-radius: 0;
+    }
+  }
+}

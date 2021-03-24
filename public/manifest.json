@@ -1,0 +1,26 @@
+{
+  "short_name": "Ivan Buccella",
+  "name": "Ivan Buccella - Software Engineer",
+
+  "icons": [
+    {
+      "src": "/favicons/favicon.ico",
+      "sizes": "96x96 32x32 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicons/android-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/favicons/apple-icon-180x180.png",
+      "type": "image/png",
+      "sizes": "180x180"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#222",
+  "background_color": "#222"
+}

@@ -1,0 +1,3 @@
+#Sitemap: https://ivanbuccella.it/sitemap.xml
+User-agent: *
+Allow: /
