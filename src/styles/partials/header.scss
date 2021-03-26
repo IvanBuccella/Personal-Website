@@ -2,6 +2,7 @@
   display: flex;
   flex-flow: row;
   align-items: center;
+  z-index: 3;
   @include media("<=medium") {
     position: fixed;
     top: 0;
@@ -75,7 +76,7 @@
 }
 .mobile-menu {
   display: none;
-  height: calc(100vh - 45px - 2em);
+  z-index: 2;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -83,7 +84,10 @@
   top: 0;
   left: 0;
   width: 100%;
+  height: calc(100vh - 45px - 2em);
   margin-top: calc(45px + 2em);
+  height: 90vh;
+  margin-top: 0;
   background-color: $background-color;
   &.open {
     display: flex;

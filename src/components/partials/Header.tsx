@@ -37,12 +37,12 @@ class Header extends React.Component<
           <div className="menu-toggle" onClick={this.openMenu}>
             <FontAwesomeIcon
               icon={faBars}
-              size="lg"
+              size="2x"
               className={!this.state.showBars ? "hidden" : ""}
             />
             <FontAwesomeIcon
               icon={faTimes}
-              size="lg"
+              size="2x"
               className={!this.state.showTimes ? "hidden" : ""}
             />
           </div>
