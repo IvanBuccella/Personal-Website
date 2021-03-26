@@ -11,6 +11,9 @@ body {
   @include media("<=large") {
     margin: 0;
   }
+  &.block-scroll {
+    overflow: hidden;
+  }
   .page-container {
     position: relative;
     display: flex;
@@ -20,12 +23,24 @@ body {
     background-color: $background-color;
     border-radius: 30px;
     padding: 2em;
-    min-height: 80vh;
+    height: calc(100vh - 8em);
 
     @include media("<=large") {
       max-width: 100%;
       margin: 0;
       border-radius: 0;
+      height: calc(100vh - 4em);
     }
+    @include media("<=medium") {
+      padding-top: calc(2em + 45px);
+      height: calc(100vh - 4em - 45px);
+    }
+
+    .page-content {
+      padding-top: 2em;
+    }
+  }
+  .hidden {
+    display: none;
   }
 }

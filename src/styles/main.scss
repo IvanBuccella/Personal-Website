@@ -7,4 +7,6 @@ $breakpoints: (
 @import "./fonts/poppins";
 @import "./variables.scss";
 @import "./common.scss";
-@import "./header.scss";
+@import "./partials/header.scss";
+@import "./pages/about-me.scss";
+@import "./pages/projects.scss";
