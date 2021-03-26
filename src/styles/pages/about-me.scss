@@ -1,0 +1,98 @@
+.page.about-me {
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3em 0;
+  .personal-information {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: row;
+    @include media("<=medium") {
+      flex-flow: column;
+    }
+    .left,
+    .right {
+      flex: 1 0 50%;
+      @include media("<=medium") {
+        flex: 1 0 100%;
+      }
+    }
+    .left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column;
+
+      img {
+        max-width: 250px;
+        border-radius: 100%;
+        border: 18px solid #444;
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.8);
+      }
+      .icons-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row;
+        .link {
+          margin: 1em;
+          text-decoration: none;
+          color: $color-white;
+        }
+      }
+    }
+    .right {
+      @include media("<=medium") {
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .role {
+        font-size: 1.3em;
+        color: #aaa;
+        font-weight: lighter;
+        margin-bottom: 30px;
+      }
+      .name {
+        font-size: 3em;
+        color: $text-color;
+        font-weight: bold;
+        margin: 0;
+      }
+      .description {
+        font-size: 1em;
+        color: $text-color;
+        font-weight: normal;
+        margin-top: 30px;
+        a {
+          color: $text-color;
+        }
+      }
+      .cta-container {
+        margin-top: 30px;
+
+        .cta {
+          padding: 0.8em 2.1em;
+          font-size: 1em;
+          background-color: #333;
+          color: $color-white;
+          border: 2px solid $color-blue;
+          border-radius: 30px;
+          transition: all 0.3s ease-in-out;
+          box-shadow: 0 10px 10px -8px rgba(0, 0, 0, 0.78);
+          text-shadow: none;
+          text-decoration: none;
+          margin-right: 20px;
+          &:hover {
+            background-color: $color-blue;
+            border-color: $color-blue;
+          }
+        }
+      }
+    }
+  }
+}
