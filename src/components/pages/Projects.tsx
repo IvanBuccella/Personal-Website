@@ -10,9 +10,9 @@ class Projects extends React.Component {
         </h1>
         <div className="all-projects">
           <div className="project">
-            <p className="title">
+            <h2 className="title">
               GigAdvisor
-            </p>
+            </h2>
             <ul>
               <li>
                 Presentation (in Italian):&nbsp;
