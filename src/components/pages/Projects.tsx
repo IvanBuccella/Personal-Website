@@ -19,10 +19,6 @@ class Projects extends React.Component {
                 <Link to="https://docs.google.com/presentation/d/1AMMAF0Evw_Lc1XtkCiCrGCGbCxCXXWFpuszahMajb-A/">here</Link>
               </li>
               <li>
-                GitHub Repo:&nbsp;
-                <Link to="https://github.com/IvanBuccella/GigAdvisor">here</Link>
-              </li>
-              <li>
                 WebApp URL:&nbsp;
                 <Link to="https://gigadvisor.buccella.me/">here</Link>
               </li>
