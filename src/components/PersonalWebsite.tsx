@@ -4,11 +4,13 @@ import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import Header from "./partials/Header";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
+import SiteLoader from "./partials/SiteLoader"
 
 class PersonalWebsite extends React.Component {
   render() {
     return (
       <Router>
+        <SiteLoader />
         <div className="page-container">
           <Header />
           <div className="page-content">
