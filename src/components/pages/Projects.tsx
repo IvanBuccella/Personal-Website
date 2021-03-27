@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom"
 
 class Projects extends React.Component {
   render() {
@@ -16,11 +15,11 @@ class Projects extends React.Component {
             <ul>
               <li>
                 Presentation (in Italian):&nbsp;
-                <Link to="https://docs.google.com/presentation/d/1AMMAF0Evw_Lc1XtkCiCrGCGbCxCXXWFpuszahMajb-A/">here</Link>
+                <a target="_blank" href="https://docs.google.com/presentation/d/1AMMAF0Evw_Lc1XtkCiCrGCGbCxCXXWFpuszahMajb-A/">here</a>
               </li>
               <li>
                 WebApp URL:&nbsp;
-                <Link to="https://gigadvisor.buccella.me/">here</Link>
+                <a target="_blank" href="https://gigadvisor.buccella.me/">here</a>
               </li>
             </ul>
           </div>
