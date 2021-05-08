@@ -29,7 +29,7 @@ class AboutMe extends React.Component {
             <p className="role">Software Engineer</p>
             <h1 className="name">Ivan Buccella</h1>
             <h2 className="description">
-              Hi! I'm a software engineer @<a target="_blank" href="https://beefree.io">BEE By MailUp Group</a>.<br />
+              Hi! I'm a software engineer @<a target="_blank" href="https://beefree.io">BEE by Growens</a>.<br />
               I am a web developer with good knowledge of front-end techniques, but I love working on back-end environments too.<br />
               I'm a fan of "pair programming" and I like working as part of a team as you grow together, learn together and improve your skills.<br />
               I like to be super organised... I can’t handle mess!<br /><br />
