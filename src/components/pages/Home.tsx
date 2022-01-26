@@ -31,7 +31,7 @@ class AboutMe extends React.Component {
               <p className="role">Software Engineer</p>
               <h1 className="name">Ivan Buccella</h1>
               <h2 className="description">
-                Hi! I am a web developer with good knowledge of front-end
+                Hi! I am a full stack developer with good knowledge of front-end
                 techniques, but I love working on back-end environments too.
                 <br />
                 I'm a fan of "pair programming" and I like working as part of a
