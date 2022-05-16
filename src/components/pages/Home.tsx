@@ -28,7 +28,7 @@ class AboutMe extends React.Component {
               </div>
             </div>
             <div className="right">
-              <p className="role">Software Engineer</p>
+              <p className="role">Full Stack Developer</p>
               <h1 className="name">Ivan Buccella</h1>
               <h2 className="description">
                 Hi! I am a full stack developer with good knowledge of front-end
